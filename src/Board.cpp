@@ -57,7 +57,38 @@ Moves Board::get_Pawn_Moves(int i, int j, Color clr)
 {
     Moves moves;
 
-    // Implement pawn move logic here.
+    if (clr == Color::White)
+    {
+        // Three types of moves
+        // 1. Move forward by one square.
+        if (i < 7 && board_[i - 1][j].piece == Pieces::None)
+        {
+            moves.push_back({i + 1, j});
+        }
+        // 2. Move forward by two squares from the starting position.
+        if (i == 6 && board_[i - 1][j].piece == Pieces::None && board_[i - 2][j].piece == Pieces::None)
+        {
+            moves.push_back({i - 2, j});
+        }
+        // 3. Capture diagonally.
+        // Leave it for now, as it requires more context about the board state and opponent pieces.
+    }
+    else if (clr == Color::Black)
+    {
+        // Three types of moves
+        // 1. Move forward by one square.
+        if (i > 0 && board_[i + 1][j].piece == Pieces::None)
+        {
+            moves.push_back({i + 1, j});
+        }
+        // 2. Move forward by two squares from the starting position.
+        if (i == 1 && board_[i + 1][j].piece == Pieces::None && board_[i + 2][j].piece == Pieces::None)
+        {
+            moves.push_back({i + 2, j});
+        }
+        // 3. Capture diagonally.
+        // Leave it for now, as it requires more context about the board state and opponent pieces.
+    }
 
     return moves;
 }
@@ -67,7 +98,67 @@ Moves Board::get_Rook_Moves(int i, int j, Color clr)
 {
     Moves moves;
 
-    // Implement rook move logic here.
+    //
+    for (int row = i - 1; row >= 0; --row)
+    {
+        if (board_[row][j].piece == Pieces::None)
+        {
+            moves.push_back({row, j});
+        }
+        else
+        {
+            if (board_[row][j].clr != clr)
+            {
+                moves.push_back({row, j});
+            }
+            break;
+        }
+    }
+    for (int row = i + 1; row < 8; ++row)
+    {
+        if (board_[row][j].piece == Pieces::None)
+        {
+            moves.push_back({row, j});
+        }
+        else
+        {
+            if (board_[row][j].clr != clr)
+            {
+                moves.push_back({row, j});
+            }
+            break;
+        }
+    }
+    for (int col = j - 1; col >= 0; --col)
+    {
+        if (board_[i][col].piece == Pieces::None)
+        {
+            moves.push_back({i, col});
+        }
+        else
+        {
+            if (board_[i][col].clr != clr)
+            {
+                moves.push_back({i, col});
+            }
+            break;
+        }
+    }
+    for (int col = j + 1; col < 8; ++col)
+    {
+        if (board_[i][col].piece == Pieces::None)
+        {
+            moves.push_back({i, col});
+        }
+        else
+        {
+            if (board_[i][col].clr != clr)
+            {
+                moves.push_back({i, col});
+            }
+            break;
+        }
+    }
 
     return moves;
 }
@@ -77,7 +168,7 @@ Moves Board::get_King_Moves(int i, int j, Color clr)
 {
     Moves moves;
 
-    // Implement king move logic here.
+    
 
     return moves;
 }
