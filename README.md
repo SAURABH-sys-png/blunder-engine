@@ -6,3 +6,7 @@ Phase 1: Simple Board representation and simple moves such that atleast two play
 
 -> That too without any use of ai
 
+-> Starting again Aug 16
+
+-- Things are hard but managable 
+lets see what happens
