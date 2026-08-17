@@ -129,6 +129,54 @@ blunder-engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/build
 .PHONY : blunder-engine/fast
 
+src/Knight_Moves.o: src/Knight_Moves.cpp.o
+.PHONY : src/Knight_Moves.o
+
+# target to build an object file
+src/Knight_Moves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o
+.PHONY : src/Knight_Moves.cpp.o
+
+src/Knight_Moves.i: src/Knight_Moves.cpp.i
+.PHONY : src/Knight_Moves.i
+
+# target to preprocess a source file
+src/Knight_Moves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.i
+.PHONY : src/Knight_Moves.cpp.i
+
+src/Knight_Moves.s: src/Knight_Moves.cpp.s
+.PHONY : src/Knight_Moves.s
+
+# target to generate assembly for a file
+src/Knight_Moves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.s
+.PHONY : src/Knight_Moves.cpp.s
+
+src/Pawn_Moves.o: src/Pawn_Moves.cpp.o
+.PHONY : src/Pawn_Moves.o
+
+# target to build an object file
+src/Pawn_Moves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o
+.PHONY : src/Pawn_Moves.cpp.o
+
+src/Pawn_Moves.i: src/Pawn_Moves.cpp.i
+.PHONY : src/Pawn_Moves.i
+
+# target to preprocess a source file
+src/Pawn_Moves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.i
+.PHONY : src/Pawn_Moves.cpp.i
+
+src/Pawn_Moves.s: src/Pawn_Moves.cpp.s
+.PHONY : src/Pawn_Moves.s
+
+# target to generate assembly for a file
+src/Pawn_Moves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.s
+.PHONY : src/Pawn_Moves.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... blunder-engine"
+	@echo "... src/Knight_Moves.o"
+	@echo "... src/Knight_Moves.i"
+	@echo "... src/Knight_Moves.s"
+	@echo "... src/Pawn_Moves.o"
+	@echo "... src/Pawn_Moves.i"
+	@echo "... src/Pawn_Moves.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

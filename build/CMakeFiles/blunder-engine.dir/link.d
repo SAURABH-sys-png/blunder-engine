@@ -3,6 +3,8 @@ blunder-engine: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/blunder-engine.dir/src/main.cpp.o \
+  CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o \
+  CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -39,6 +41,10 @@ blunder-engine: \
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
 
 CMakeFiles/blunder-engine.dir/src/main.cpp.o:
+
+CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o:
+
+CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 
