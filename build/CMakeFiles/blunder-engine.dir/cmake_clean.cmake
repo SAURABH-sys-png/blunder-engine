@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/blunder-engine.dir/link.d"
+  "CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o"
+  "CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o.d"
+  "CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o"
+  "CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o.d"
   "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o"
   "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o.d"
   "CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o"

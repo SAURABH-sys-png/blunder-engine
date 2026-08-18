@@ -129,6 +129,54 @@ blunder-engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/build
 .PHONY : blunder-engine/fast
 
+src/Bishop_Moves.o: src/Bishop_Moves.cpp.o
+.PHONY : src/Bishop_Moves.o
+
+# target to build an object file
+src/Bishop_Moves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o
+.PHONY : src/Bishop_Moves.cpp.o
+
+src/Bishop_Moves.i: src/Bishop_Moves.cpp.i
+.PHONY : src/Bishop_Moves.i
+
+# target to preprocess a source file
+src/Bishop_Moves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.i
+.PHONY : src/Bishop_Moves.cpp.i
+
+src/Bishop_Moves.s: src/Bishop_Moves.cpp.s
+.PHONY : src/Bishop_Moves.s
+
+# target to generate assembly for a file
+src/Bishop_Moves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.s
+.PHONY : src/Bishop_Moves.cpp.s
+
+src/King_Moves.o: src/King_Moves.cpp.o
+.PHONY : src/King_Moves.o
+
+# target to build an object file
+src/King_Moves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o
+.PHONY : src/King_Moves.cpp.o
+
+src/King_Moves.i: src/King_Moves.cpp.i
+.PHONY : src/King_Moves.i
+
+# target to preprocess a source file
+src/King_Moves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.i
+.PHONY : src/King_Moves.cpp.i
+
+src/King_Moves.s: src/King_Moves.cpp.s
+.PHONY : src/King_Moves.s
+
+# target to generate assembly for a file
+src/King_Moves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.s
+.PHONY : src/King_Moves.cpp.s
+
 src/Knight_Moves.o: src/Knight_Moves.cpp.o
 .PHONY : src/Knight_Moves.o
 
@@ -210,6 +258,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... blunder-engine"
+	@echo "... src/Bishop_Moves.o"
+	@echo "... src/Bishop_Moves.i"
+	@echo "... src/Bishop_Moves.s"
+	@echo "... src/King_Moves.o"
+	@echo "... src/King_Moves.i"
+	@echo "... src/King_Moves.s"
 	@echo "... src/Knight_Moves.o"
 	@echo "... src/Knight_Moves.i"
 	@echo "... src/Knight_Moves.s"

@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 #include "Pawn_Moves.hpp"
 #include "Knight_Moves.hpp"
+#include "King_Moves.hpp"
+#include "Bishop_Moves.hpp"
 // board declarations
 #define U64 unsigned long long
 
@@ -115,7 +117,9 @@ int main()
 {
 	Pawn_Moves::init_pawn_attacks();
 	Knight_Moves::init_knight_attacks();
-	print_Board(Knight_Moves::knight_attacks[a1]);
+	King_Moves::init_king_attacks();
+	Bishop_Moves::init_bishop_moves();
+	print_Board(Bishop_Moves::bishop_attacks[d4]);
 	
 	return 0;
 }
