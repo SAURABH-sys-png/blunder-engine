@@ -119,7 +119,7 @@ int main()
 	Knight_Moves::init_knight_attacks();
 	King_Moves::init_king_attacks();
 	Bishop_Moves::init_bishop_moves();
-	print_Board(Bishop_Moves::bishop_attacks[d4]);
+	print_Board(Bishop_Moves::bishop_attacks[a8]);
 	
 	return 0;
 }
