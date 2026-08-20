@@ -3,6 +3,7 @@
 #include "Knight_Moves.hpp"
 #include "King_Moves.hpp"
 #include "Bishop_Moves.hpp"
+#include "Rook_Moves.hpp"
 // board declarations
 #define U64 unsigned long long
 
@@ -119,7 +120,20 @@ int main()
 	Knight_Moves::init_knight_attacks();
 	King_Moves::init_king_attacks();
 	Bishop_Moves::init_bishop_moves();
-	print_Board(Bishop_Moves::bishop_attacks[a8]);
+	Rook_Moves::init_rook_attacks();
+
+	U64 blocks = 0ULL;
+
+	set_Bit(blocks,g7);
+	set_Bit(blocks,b3);
+
+	for (size_t i = 0; i < 64; i++)
+	{
+		print_Board(Bishop_Moves::bishop_attacks_on_the_fly(i,blocks));
+	}
+	
+		
+	
 	
 	return 0;
 }

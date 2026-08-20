@@ -415,11 +415,16 @@ CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o: /home/realincor/gitrepos/blu
   /home/realincor/gitrepos/blunder-engine/include/Pawn_Moves.hpp \
   /usr/include/stdc-predef.h
 
+CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o: /home/realincor/gitrepos/blunder-engine/src/Rook_Moves.cpp \
+  /home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp \
+  /usr/include/stdc-predef.h
+
 CMakeFiles/blunder-engine.dir/src/main.cpp.o: /home/realincor/gitrepos/blunder-engine/src/main.cpp \
   /home/realincor/gitrepos/blunder-engine/include/Bishop_Moves.hpp \
   /home/realincor/gitrepos/blunder-engine/include/King_Moves.hpp \
   /home/realincor/gitrepos/blunder-engine/include/Knight_Moves.hpp \
   /home/realincor/gitrepos/blunder-engine/include/Pawn_Moves.hpp \
+  /home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -874,6 +879,7 @@ blunder-engine: /lib64/ld-linux-x86-64.so.2 \
   CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o \
   CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o \
   CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o \
+  CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o \
   CMakeFiles/blunder-engine.dir/src/main.cpp.o
 
 
@@ -1121,6 +1127,10 @@ CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o:
 
 /usr/include/c++/15/bits/regex_executor.h:
 
+/usr/include/c++/15/bits/regex_error.h:
+
+/usr/include/c++/15/bits/regex_constants.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/c++/15/cstdlib:
@@ -1183,10 +1193,6 @@ CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o:
 
 /usr/include/c++/15/string:
 
-/usr/include/c++/15/map:
-
-/home/realincor/gitrepos/blunder-engine/include/King_Moves.hpp:
-
 /usr/include/stdint.h:
 
 /usr/include/endian.h:
@@ -1206,6 +1212,8 @@ CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o:
 /usr/include/c++/15/iosfwd:
 
 /usr/include/c++/15/ios:
+
+CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o:
 
 /usr/include/c++/15/ext/numeric_traits.h:
 
@@ -1288,6 +1296,12 @@ CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o:
 /usr/include/c++/15/bits/nested_exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/c++/15/map:
+
+/home/realincor/gitrepos/blunder-engine/include/King_Moves.hpp:
+
+/home/realincor/gitrepos/blunder-engine/src/Rook_Moves.cpp:
 
 /usr/include/stdc-predef.h:
 
@@ -1396,6 +1410,8 @@ CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o:
 /usr/include/c++/15/thread:
 
 /home/realincor/gitrepos/blunder-engine/src/Bishop_Moves.cpp:
+
+/home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp:
 
 /usr/include/features.h:
 
@@ -1513,8 +1529,6 @@ CMakeFiles/blunder-engine.dir/src/main.cpp.o:
 
 /usr/include/c++/15/ostream:
 
-/usr/include/c++/15/bits/regex_constants.h:
-
 /usr/include/alloca.h:
 
 /usr/include/c++/15/bits/stl_iterator.h:
@@ -1598,8 +1612,6 @@ CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o:
 /usr/include/c++/15/tr1/poly_hermite.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/15/bits/regex_error.h:
 
 /usr/include/c++/15/bits/stl_iterator_base_funcs.h:
 

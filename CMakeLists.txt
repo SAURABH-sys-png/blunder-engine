@@ -12,6 +12,7 @@ add_executable(blunder-engine
     src/Knight_Moves.cpp
     src/King_Moves.cpp
     src/Bishop_Moves.cpp
+    src/Rook_Moves.cpp
 )
 
 target_include_directories(blunder-engine PRIVATE include)

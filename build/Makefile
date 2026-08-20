@@ -225,6 +225,30 @@ src/Pawn_Moves.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.s
 .PHONY : src/Pawn_Moves.cpp.s
 
+src/Rook_Moves.o: src/Rook_Moves.cpp.o
+.PHONY : src/Rook_Moves.o
+
+# target to build an object file
+src/Rook_Moves.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o
+.PHONY : src/Rook_Moves.cpp.o
+
+src/Rook_Moves.i: src/Rook_Moves.cpp.i
+.PHONY : src/Rook_Moves.i
+
+# target to preprocess a source file
+src/Rook_Moves.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.i
+.PHONY : src/Rook_Moves.cpp.i
+
+src/Rook_Moves.s: src/Rook_Moves.cpp.s
+.PHONY : src/Rook_Moves.s
+
+# target to generate assembly for a file
+src/Rook_Moves.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.s
+.PHONY : src/Rook_Moves.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... src/Pawn_Moves.o"
 	@echo "... src/Pawn_Moves.i"
 	@echo "... src/Pawn_Moves.s"
+	@echo "... src/Rook_Moves.o"
+	@echo "... src/Rook_Moves.i"
+	@echo "... src/Rook_Moves.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

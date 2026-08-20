@@ -9,4 +9,5 @@ class Bishop_Moves{
 	public:
 		static U64 mask_bishop_moves(int sq);
 		static void init_bishop_moves();
+		static U64 bishop_attacks_on_the_fly(int sq, U64 blocks);
 };

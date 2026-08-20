@@ -339,4 +339,5 @@ CMakeFiles/blunder-engine.dir/src/main.cpp.o: \
  /home/realincor/gitrepos/blunder-engine/include/Pawn_Moves.hpp \
  /home/realincor/gitrepos/blunder-engine/include/Knight_Moves.hpp \
  /home/realincor/gitrepos/blunder-engine/include/King_Moves.hpp \
- /home/realincor/gitrepos/blunder-engine/include/Bishop_Moves.hpp
+ /home/realincor/gitrepos/blunder-engine/include/Bishop_Moves.hpp \
+ /home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp
