@@ -32,6 +32,14 @@ const int rook_relevant_bits[64] = {
     11, 10, 10, 10, 10, 10, 10, 11,
     12, 11, 11, 11, 11, 11, 11, 12
 };
+
+// magic bishop & rook matrices
+U64 rook_magic_number[64];
+U64 bishop_magic_number[64];
+
+
+
+
 // File masks used to prevent attacks from wrapping around board edges.
 const U64 not_A_file = 18374403900871474942ULL;
 const U64 not_H_file = 9187201950435737471ULL;
@@ -188,29 +196,59 @@ U64 generate_Magic_Num(int square,int relevant_bits,int bishop){
     // this is where we are leaving vid no : 15 and time as 15:05 **************************************************************
   }
 
+  for(int random_count = 0;random_count < 100000000;random_count++){
+    U64 magic_number = generate_Magic_Num_Candidate();
+    if(count_bits((attack_mask * magic_number)&0xFF00000000000000) < 6)continue;
+    // init used attacks
+    memset(used_attacks,0ULL,sizeof(used_attacks));
+    // test magix index
+    // init index ad fail flag
+    int index,fail;
+
+    for(int index = 0,fail = 0;!fail && index < occupancy_indices;index++){
+      // init magic index
+      int magic_index = (int)((occupancy[index] * magic_number) >> (64 - relevant_bits));
+      // on empty index
+      if(used_attacks[index] == 0ULL){
+        // magic index works
+        used_attacks[index] = attacks[index];
+      }
+      else if(used_attacks[index] != attacks[index])
+      {
+        // magic index doesnt work
+        fail = 1;
+      }
+
+    }
+    if(!fail){
+      return magic_number;
+    } 
+  }
+  printf("   Magic NUmber fails! ");
+  return 0ULL;
+
+}
+
+// init magic number
+
+void init_magic_numbers(){
+  for(int sq = 0;sq<64;sq++){
+    // init rook magic number
+    rook_magic_number[sq] = generate_Magic_Num(sq,rook_relevant_bits[sq],1);
+  }
+  printf("\n\n");
+
+
+  for(int sq = 0;sq<64;sq++){
+    // init bishop magic number
+    bishop_magic_number[sq] = generate_Magic_Num(sq,bishop_relevant_bits[sq],1);
+  }
 }
 
 int main()
 {
-
-  for(int rank = 0;rank<8;rank++){
-    for(int file = 0;file<8;file++){
-      int sq  =rank*8 + file;
-      int sg = count_bits(Bishop_Moves::mask_bishop_moves(sq));
-
-      std::cout << sg << ' ';
-
-    }
-    std::cout << '\n';
-  }
-
-
-
-  std::cout << get_random_num() << std::endl;
-  std::cout << get_random_num() << std::endl;
-  
-
-  print_Board(getRandom_U64_nums());
+  init_magic_numbers();
+  // cotinue on 41:25 from vid number 15
 
 	return 0;
 }
