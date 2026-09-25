@@ -201,6 +201,30 @@ src/Knight_Moves.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.s
 .PHONY : src/Knight_Moves.cpp.s
 
+src/Magic_Numbers.o: src/Magic_Numbers.cpp.o
+.PHONY : src/Magic_Numbers.o
+
+# target to build an object file
+src/Magic_Numbers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o
+.PHONY : src/Magic_Numbers.cpp.o
+
+src/Magic_Numbers.i: src/Magic_Numbers.cpp.i
+.PHONY : src/Magic_Numbers.i
+
+# target to preprocess a source file
+src/Magic_Numbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.i
+.PHONY : src/Magic_Numbers.cpp.i
+
+src/Magic_Numbers.s: src/Magic_Numbers.cpp.s
+.PHONY : src/Magic_Numbers.s
+
+# target to generate assembly for a file
+src/Magic_Numbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.s
+.PHONY : src/Magic_Numbers.cpp.s
+
 src/Pawn_Moves.o: src/Pawn_Moves.cpp.o
 .PHONY : src/Pawn_Moves.o
 
@@ -291,6 +315,9 @@ help:
 	@echo "... src/Knight_Moves.o"
 	@echo "... src/Knight_Moves.i"
 	@echo "... src/Knight_Moves.s"
+	@echo "... src/Magic_Numbers.o"
+	@echo "... src/Magic_Numbers.i"
+	@echo "... src/Magic_Numbers.s"
 	@echo "... src/Pawn_Moves.o"
 	@echo "... src/Pawn_Moves.i"
 	@echo "... src/Pawn_Moves.s"

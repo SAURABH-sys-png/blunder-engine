@@ -1,6 +1,7 @@
-CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o: \
- /home/realincor/gitrepos/blunder-engine/src/Bishop_Moves.cpp \
+CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o: \
+ /home/realincor/gitrepos/blunder-engine/src/Magic_Numbers.cpp \
  /usr/include/stdc-predef.h \
+ /home/realincor/gitrepos/blunder-engine/include/Magic_Numbers.hpp \
  /home/realincor/gitrepos/blunder-engine/include/Bishop_Moves.hpp \
  /usr/include/c++/15/iostream /usr/include/c++/15/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
@@ -162,5 +163,5 @@ CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o: \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
  /usr/include/c++/15/bits/istream.tcc \
- /home/realincor/gitrepos/blunder-engine/include/Magic_Numbers.hpp \
- /home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp
+ /home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp \
+ /usr/include/c++/15/cstring /usr/include/string.h /usr/include/strings.h

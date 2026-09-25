@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o.d"
   "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o"
   "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o.d"
+  "CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o"
+  "CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o.d"
   "CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o"
   "CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o.d"
   "CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o"

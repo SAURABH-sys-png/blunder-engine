@@ -4,6 +4,10 @@
 
 class Rook_Moves
 {
+private:
+	static const int relevant_bits[64];
+	static U64 magic_number[64];
+
 public:
 	static U64 rook_attacks[64];
 	static U64 rook_masks[64];
@@ -14,4 +18,7 @@ public:
 	static U64 mask_rook_attacks(int sq);
 	static void init_rook_attacks();
 	static U64 rook_attacks_on_the_fly(int sq,U64 blocks);
+	static void init_magic_numbers();
+	static void init_magic_attack_table();
+	static U64 get_rook_attacks(int sq, U64 occupancy);
 };

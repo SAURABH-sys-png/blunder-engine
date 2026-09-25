@@ -85,12 +85,12 @@ clean: CMakeFiles/blunder-engine.dir/clean
 CMakeFiles/blunder-engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/realincor/gitrepos/blunder-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target blunder-engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/realincor/gitrepos/blunder-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target blunder-engine"
 .PHONY : CMakeFiles/blunder-engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blunder-engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/realincor/gitrepos/blunder-engine/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/realincor/gitrepos/blunder-engine/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/blunder-engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/realincor/gitrepos/blunder-engine/build/CMakeFiles 0
 .PHONY : CMakeFiles/blunder-engine.dir/rule
@@ -102,7 +102,7 @@ blunder-engine: CMakeFiles/blunder-engine.dir/rule
 # codegen rule for target.
 CMakeFiles/blunder-engine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/realincor/gitrepos/blunder-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target blunder-engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/realincor/gitrepos/blunder-engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target blunder-engine"
 .PHONY : CMakeFiles/blunder-engine.dir/codegen
 
 # clean rule for target.
