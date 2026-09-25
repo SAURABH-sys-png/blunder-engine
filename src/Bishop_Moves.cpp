@@ -3,6 +3,9 @@
 #define set_Bit(BitBoard, sq) (BitBoard |= (1ULL << (sq)))
 
 U64 Bishop_Moves::bishop_attacks[64];
+U64 Bishop_Moves::bishop_masks[64];
+
+U64 Bishop_Moves::bishop_actual_attacks[64][512];
 
 U64 Bishop_Moves::mask_bishop_moves(int sq)
 {

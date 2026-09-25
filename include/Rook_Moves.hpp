@@ -6,6 +6,9 @@ class Rook_Moves
 {
 public:
 	static U64 rook_attacks[64];
+	static U64 rook_masks[64];
+	// rook attacks table sq, occupancies
+	static U64 rook_actual_attacks[64][4096];
 
 public:
 	static U64 mask_rook_attacks(int sq);

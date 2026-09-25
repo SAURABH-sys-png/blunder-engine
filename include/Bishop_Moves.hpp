@@ -6,6 +6,9 @@
 class Bishop_Moves{
 	public:
 		static U64 bishop_attacks[64];
+		static U64 bishop_masks[64];
+		// bishop attacks table
+		static U64 bishop_actual_attacks[64][512];
 	public:
 		static U64 mask_bishop_moves(int sq);
 		static void init_bishop_moves();

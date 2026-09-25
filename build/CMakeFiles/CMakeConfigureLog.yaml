@@ -39,6 +39,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -46,6 +50,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     searched_directories:
       - "/home/realincor/.nvm/versions/node/v24.21.0/bin/uname"
@@ -74,6 +81,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -81,6 +92,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "message-v1"
@@ -129,6 +143,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -136,6 +154,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     searched_directories:
       - "/home/realincor/.nvm/versions/node/v24.21.0/bin/gmake"
@@ -164,6 +185,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -171,6 +196,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -220,6 +248,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -227,6 +259,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     searched_directories:
       - "/home/realincor/.nvm/versions/node/v24.21.0/bin/c++"
@@ -255,6 +290,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -262,6 +301,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -309,6 +351,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -316,6 +362,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "message-v1"
@@ -378,6 +427,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -385,6 +438,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/ar"
     search_context:
@@ -408,6 +464,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -415,6 +475,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -455,6 +518,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -462,6 +529,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/ranlib"
     search_context:
@@ -485,6 +555,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -492,6 +566,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -532,6 +609,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -539,6 +620,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/strip"
     search_context:
@@ -562,6 +646,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -569,6 +657,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -609,6 +700,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -616,6 +711,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/ld"
     search_context:
@@ -639,6 +737,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -646,6 +748,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -686,6 +791,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -693,6 +802,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/nm"
     search_context:
@@ -716,6 +828,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -723,6 +839,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -763,6 +882,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -770,6 +893,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/objdump"
     search_context:
@@ -793,6 +919,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -800,6 +930,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -840,6 +973,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -847,6 +984,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/objcopy"
     search_context:
@@ -870,6 +1010,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -877,6 +1021,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -917,6 +1064,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -924,6 +1075,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/readelf"
     search_context:
@@ -947,6 +1101,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -954,6 +1112,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -994,6 +1155,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -1001,6 +1166,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
@@ -1022,6 +1190,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/dlltool"
       - "/mnt/c/Program Files/nodejs/dlltool"
       - "/mnt/c/ProgramData/chocolatey/bin/dlltool"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/dlltool"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/dlltool"
+      - "/mnt/c/Program Files/dotnet/dlltool"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/dlltool"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/dlltool"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/dlltool"
@@ -1029,6 +1201,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/dlltool"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/dlltool"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/dlltool"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/dlltool"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/dlltool"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/dlltool"
       - "/snap/bin/dlltool"
     found: false
     search_context:
@@ -1052,6 +1227,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -1059,6 +1238,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -1099,6 +1281,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -1106,6 +1292,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     found: "/usr/bin/addr2line"
     search_context:
@@ -1129,6 +1318,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -1136,6 +1329,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -1176,6 +1372,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -1183,6 +1383,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/tapi"
@@ -1204,6 +1407,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/tapi"
       - "/mnt/c/Program Files/nodejs/tapi"
       - "/mnt/c/ProgramData/chocolatey/bin/tapi"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/tapi"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/tapi"
+      - "/mnt/c/Program Files/dotnet/tapi"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/tapi"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/tapi"
@@ -1211,6 +1418,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/tapi"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/tapi"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/tapi"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/tapi"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/tapi"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/tapi"
       - "/snap/bin/tapi"
     found: false
     search_context:
@@ -1234,6 +1444,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -1241,6 +1455,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -1284,6 +1501,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -1291,6 +1512,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-15.2"
@@ -1312,6 +1536,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ar-15.2"
       - "/mnt/c/Program Files/nodejs/gcc-ar-15.2"
       - "/mnt/c/ProgramData/chocolatey/bin/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/gcc-ar-15.2"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ar-15.2"
+      - "/mnt/c/Program Files/dotnet/gcc-ar-15.2"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/gcc-ar-15.2"
@@ -1319,6 +1547,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/gcc-ar-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/gcc-ar-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/gcc-ar-15.2"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/gcc-ar-15.2"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/gcc-ar-15.2"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/gcc-ar-15.2"
       - "/snap/bin/gcc-ar-15.2"
     found: "/usr/bin/gcc-ar-15"
     search_context:
@@ -1342,6 +1573,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -1349,6 +1584,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "find-v1"
@@ -1392,6 +1630,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/"
       - "/mnt/c/Program Files/nodejs/"
       - "/mnt/c/ProgramData/chocolatey/bin/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "/mnt/c/Program Files/dotnet/"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/"
@@ -1399,6 +1641,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/"
       - "/snap/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-15.2"
@@ -1420,6 +1665,10 @@ events:
       - "/mnt/c/WINDOWS/System32/OpenSSH/gcc-ranlib-15.2"
       - "/mnt/c/Program Files/nodejs/gcc-ranlib-15.2"
       - "/mnt/c/ProgramData/chocolatey/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files/dotnet/gcc-ranlib-15.2"
+      - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin/gcc-ranlib-15.2"
@@ -1427,6 +1676,9 @@ events:
       - "/mnt/c/Users/saurabh/AppData/Roaming/npm/gcc-ranlib-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64/gcc-ranlib-15.2"
       - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd/gcc-ranlib-15.2"
+      - "/mnt/c/Users/saurabh/.dotnet/tools/gcc-ranlib-15.2"
+      - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/gcc-ranlib-15.2"
+      - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin/gcc-ranlib-15.2"
       - "/snap/bin/gcc-ranlib-15.2"
     found: "/usr/bin/gcc-ranlib-15"
     search_context:
@@ -1450,6 +1702,10 @@ events:
         - "/mnt/c/WINDOWS/System32/OpenSSH/"
         - "/mnt/c/Program Files/nodejs/"
         - "/mnt/c/ProgramData/chocolatey/bin"
+        - "/mnt/c/Program Files/Microsoft SQL Server/170/Tools/Binn/"
+        - "/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+        - "/mnt/c/Program Files/dotnet/"
+        - "/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WindowsApps"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Microsoft VS Code/bin"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/cursor/resources/app/bin"
@@ -1457,6 +1713,9 @@ events:
         - "/mnt/c/Users/saurabh/AppData/Roaming/npm"
         - "/mnt/c/Users/saurabh/AppData/Local/Microsoft/WinGet/Packages/OpenJS.NodeJS.LTS_Microsoft.Winget.Source_8wekyb3d8bbwe/node-v24.19.0-win-x64"
         - "/mnt/c/Users/saurabh/AppData/Local/Programs/Git/cmd"
+        - "/mnt/c/Users/saurabh/.dotnet/tools"
+        - "/mnt/c/Users/saurabh/AppData/Local/DockerSandboxes/bin/"
+        - "/mnt/c/Users/saurabh/AppData/Local/Programs/DockerDesktop/resources/bin"
         - "/snap/bin"
   -
     kind: "try_compile-v1"
@@ -1467,8 +1726,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-6Qo6FD"
-      binary: "/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-6Qo6FD"
+      source: "/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-pOLMr5"
+      binary: "/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-pOLMr5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1478,13 +1737,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-6Qo6FD'
+        Change Dir: '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-pOLMr5'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef63f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ef63f.dir/build.make CMakeFiles/cmTC_ef63f.dir/build
-        gmake[1]: Entering directory '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-6Qo6FD'
-        Building CXX object CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41dd2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_41dd2.dir/build.make CMakeFiles/cmTC_41dd2.dir/build
+        gmake[1]: Entering directory '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-pOLMr5'
+        Building CXX object CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1494,8 +1753,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef63f.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef63f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc3Li4ji.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41dd2.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41dd2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc3x8Ynr.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1516,14 +1775,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef63f.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3Li4ji.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41dd2.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3x8Ynr.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_ef63f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef63f.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_41dd2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41dd2.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -1536,14 +1795,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef63f' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ef63f.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRrt9Og.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef63f /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41dd2' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41dd2.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRiToKZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41dd2 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRrt9Og.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef63f /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRiToKZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41dd2 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef63f' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ef63f.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ef63f
-        gmake[1]: Leaving directory '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-6Qo6FD'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41dd2' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41dd2.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_41dd2
+        gmake[1]: Leaving directory '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-pOLMr5'
         
       exitCode: 0
   -
@@ -1584,13 +1843,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-6Qo6FD']
+        ignore line: [Change Dir: '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-pOLMr5']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ef63f/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ef63f.dir/build.make CMakeFiles/cmTC_ef63f.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-6Qo6FD']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41dd2/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_41dd2.dir/build.make CMakeFiles/cmTC_41dd2.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/realincor/gitrepos/blunder-engine/build/CMakeFiles/CMakeScratch/TryCompile-pOLMr5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1600,8 +1859,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef63f.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ef63f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc3Li4ji.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41dd2.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_41dd2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/cc3x8Ynr.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1622,14 +1881,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef63f.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3Li4ji.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41dd2.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3x8Ynr.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_ef63f]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef63f.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_41dd2]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41dd2.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -1642,13 +1901,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef63f' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ef63f.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRrt9Og.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef63f /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_41dd2' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_41dd2.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRiToKZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41dd2 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccRrt9Og.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccRiToKZ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1666,7 +1925,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ef63f] ==> ignore
+          arg [cmTC_41dd2] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -1681,7 +1940,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1692,7 +1951,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRrt9Og.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ef63f /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_ef63f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRiToKZ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_41dd2 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_41dd2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]

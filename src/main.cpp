@@ -237,17 +237,17 @@ U64 generate_Magic_Num(int square,int relevant_bits,int bishop){
     memset(used_attacks,0ULL,sizeof(used_attacks));
     // test magix index
     // init index ad fail flag
-    int index,fail;
+    int fail = 0;
 
-    for(int index = 0,fail = 0;!fail && index < occupancy_indices;index++){
+    for(int index = 0;!fail && index < occupancy_indices;index++){
       // init magic index
       int magic_index = (int)((occupancy[index] * magic_number) >> (64 - relevant_bits));
       // on empty index
-      if(used_attacks[index] == 0ULL){
+      if(used_attacks[magic_index] == 0ULL){
         // magic index works
-        used_attacks[index] = attacks[index];
+        used_attacks[magic_index] = attacks[index];
       }
-      else if(used_attacks[index] != attacks[index])
+      else if(used_attacks[magic_index] != attacks[index])
       {
         // magic index doesnt work
         fail = 1;
@@ -268,7 +268,7 @@ U64 generate_Magic_Num(int square,int relevant_bits,int bishop){
 void init_magic_numbers(){
   for(int sq = 0;sq<64;sq++){
     // init rook magic number
-    rook_magic_number[sq] = generate_Magic_Num(sq,rook_relevant_bits[sq],1);
+    rook_magic_number[sq] = generate_Magic_Num(sq,rook_relevant_bits[sq],0);
   }
   printf("\n\n");
 
@@ -279,13 +279,75 @@ void init_magic_numbers(){
   }
 }
 
+// init slider piece atack tables
 
+void init_sliders_attacks(int bishop){
+  // loop over 64 board squars
+  for(int sq = 0;sq<64;sq++){
+    Bishop_Moves::bishop_masks[sq] = Bishop_Moves::mask_bishop_moves(sq);
+    Rook_Moves::rook_masks[sq] = Rook_Moves::mask_rook_attacks(sq);
+    U64 attack_mask = bishop ? Bishop_Moves :: bishop_masks[sq] : Rook_Moves::rook_masks[sq];
+    // init relevant bits count
+
+    int relevant_bits_count = count_bits(attack_mask);
+    // init occupancy indices
+
+    int occupancy_indices = (1 << relevant_bits_count);
+    // loop ove roccupancy indices
+
+    for(int idx = 0;idx<occupancy_indices;idx++){
+      if(bishop){
+        U64 occupancy =set_occupancy(idx,relevant_bits_count,attack_mask);
+        // here we initialised current ccupancy variations
+        // next is magic index 
+        int mafic_index = (occupancy*bishop_magic_number[sq] >> (64-bishop_relevant_bits[sq]));        
+        // init bishop attacks
+        Bishop_Moves::bishop_actual_attacks[sq][mafic_index] = Bishop_Moves::bishop_attacks_on_the_fly(sq,occupancy);
+      } 
+      else{
+        U64 occupancy =set_occupancy(idx,relevant_bits_count,attack_mask);
+        // here we initialised current ccupancy variations
+        // next is magic index 
+        int mafic_index = (occupancy*rook_magic_number[sq] >> (64-rook_relevant_bits[sq]));        
+        // init bishop attacks
+        Rook_Moves::rook_actual_attacks[sq][mafic_index] = Rook_Moves::rook_attacks_on_the_fly(sq,occupancy);
+      }
+    }
+  }
+  // init bishop and rook masks
+}
+
+
+
+// get bishop attacks
+
+static inline U64 get_bishop_attacks(int sq,U64 occupancy){
+  // occupancy  get bihsop atacks assuming current bard occupancy
+  occupancy &= Bishop_Moves::bishop_masks[sq];
+  occupancy *= bishop_magic_number[sq];
+  occupancy >>=64-bishop_relevant_bits[sq];
+  return Bishop_Moves::bishop_actual_attacks[sq][occupancy];
+}
+
+
+static inline U64 get_rook_attacks(int sq,U64 occupancy){
+  // occupancy  get bihsop atacks assuming current bard occupancy
+  occupancy &= Rook_Moves::rook_masks[sq];
+  occupancy *= rook_magic_number[sq];
+  occupancy >>=64-rook_relevant_bits[sq];
+  return Rook_Moves::rook_actual_attacks[sq][occupancy];
+}
 
 int main()
 {
   
   init_magic_numbers();
   // cotinue from vid number 16
+  // init sliders pieces attacks
+  init_sliders_attacks(0);
 
+  U64 occupancy = 0ULL;
+  print_Board(occupancy);
+  print_Board(get_rook_attacks(d4,occupancy));
 	return 0;
 }

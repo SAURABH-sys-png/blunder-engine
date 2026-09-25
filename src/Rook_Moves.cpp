@@ -3,6 +3,9 @@
 #define set_Bit(BitBoard, sq) (BitBoard |= (1ULL << (sq)))
 
 U64 Rook_Moves::rook_attacks[64];
+U64 Rook_Moves::rook_masks[64];
+
+U64 Rook_Moves::rook_actual_attacks[64][4096];
 
 U64 Rook_Moves::mask_rook_attacks(int sq)
 {
