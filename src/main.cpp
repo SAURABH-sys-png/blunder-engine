@@ -85,7 +85,7 @@ int main()
   print_Board(occupancy);
   print_Board(Rook_Moves::get_rook_attacks(d4,occupancy));
 	return 0;
-
+  // stable build fallbakc build
 
 
   // continue from video number 17  time8 min
