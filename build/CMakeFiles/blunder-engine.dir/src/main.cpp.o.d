@@ -336,5 +336,7 @@ CMakeFiles/blunder-engine.dir/src/main.cpp.o: \
  /usr/include/c++/15/filesystem /usr/include/c++/15/bits/fs_fwd.h \
  /usr/include/c++/15/bits/fs_path.h /usr/include/c++/15/bits/fs_dir.h \
  /usr/include/c++/15/bits/fs_ops.h /usr/include/c++/15/memory_resource \
+ /home/realincor/gitrepos/blunder-engine/include/Position.hpp \
  /home/realincor/gitrepos/blunder-engine/include/Bishop_Moves.hpp \
- /home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp
+ /home/realincor/gitrepos/blunder-engine/include/Rook_Moves.hpp \
+ /home/realincor/gitrepos/blunder-engine/include/Pawn_Moves.hpp

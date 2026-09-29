@@ -249,6 +249,30 @@ src/Pawn_Moves.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.s
 .PHONY : src/Pawn_Moves.cpp.s
 
+src/Position.o: src/Position.cpp.o
+.PHONY : src/Position.o
+
+# target to build an object file
+src/Position.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Position.cpp.o
+.PHONY : src/Position.cpp.o
+
+src/Position.i: src/Position.cpp.i
+.PHONY : src/Position.i
+
+# target to preprocess a source file
+src/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Position.cpp.i
+.PHONY : src/Position.cpp.i
+
+src/Position.s: src/Position.cpp.s
+.PHONY : src/Position.s
+
+# target to generate assembly for a file
+src/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Position.cpp.s
+.PHONY : src/Position.cpp.s
+
 src/Rook_Moves.o: src/Rook_Moves.cpp.o
 .PHONY : src/Rook_Moves.o
 
@@ -321,6 +345,9 @@ help:
 	@echo "... src/Pawn_Moves.o"
 	@echo "... src/Pawn_Moves.i"
 	@echo "... src/Pawn_Moves.s"
+	@echo "... src/Position.o"
+	@echo "... src/Position.i"
+	@echo "... src/Position.s"
 	@echo "... src/Rook_Moves.o"
 	@echo "... src/Rook_Moves.i"
 	@echo "... src/Rook_Moves.s"
