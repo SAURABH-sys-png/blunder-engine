@@ -15,6 +15,7 @@ add_executable(blunder-engine
     src/Rook_Moves.cpp
     src/Magic_Numbers.cpp
     src/Position.cpp
+    src/UCI.cpp
 )
 
 target_include_directories(blunder-engine PRIVATE include)

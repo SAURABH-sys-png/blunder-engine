@@ -297,6 +297,30 @@ src/Rook_Moves.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.s
 .PHONY : src/Rook_Moves.cpp.s
 
+src/UCI.o: src/UCI.cpp.o
+.PHONY : src/UCI.o
+
+# target to build an object file
+src/UCI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/UCI.cpp.o
+.PHONY : src/UCI.cpp.o
+
+src/UCI.i: src/UCI.cpp.i
+.PHONY : src/UCI.i
+
+# target to preprocess a source file
+src/UCI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/UCI.cpp.i
+.PHONY : src/UCI.cpp.i
+
+src/UCI.s: src/UCI.cpp.s
+.PHONY : src/UCI.s
+
+# target to generate assembly for a file
+src/UCI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blunder-engine.dir/build.make CMakeFiles/blunder-engine.dir/src/UCI.cpp.s
+.PHONY : src/UCI.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -351,6 +375,9 @@ help:
 	@echo "... src/Rook_Moves.o"
 	@echo "... src/Rook_Moves.i"
 	@echo "... src/Rook_Moves.s"
+	@echo "... src/UCI.o"
+	@echo "... src/UCI.i"
+	@echo "... src/UCI.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

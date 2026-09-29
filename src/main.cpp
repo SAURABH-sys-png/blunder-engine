@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include "Position.hpp"
+#include "UCI.hpp"
 // Include the move-generation interfaces used by this test program.
 #include "Bishop_Moves.hpp"
 #include "Rook_Moves.hpp"
@@ -147,7 +148,7 @@ void setup_start_position(Position &pos)
   pos.state[BLACK][QUEEN] = (1ULL << 59);                 // d8
   pos.state[BLACK][KING] = (1ULL << 60);                  // e8
 
-  pos.updateOccupencies();
+  pos.updateOccupancies();
 }
 
 // Helper function to display full board state graphically with piece letters
@@ -201,64 +202,10 @@ void print_position(const Position &pos)
 
 int main()
 {
-  // 1. Initialize lookup tables
+  // Initialize move-generation tables before accepting UCI commands.
   Pawn_Moves::init_pawn_attacks();
-
-  std::cout << "========================================================\n";
-  std::cout << "  1. TESTING RAW PAWN ATTACK MASKS\n";
-  std::cout << "========================================================\n";
-
-  std::cout << "White Pawn Attacks on e2:";
-  print_Board(Pawn_Moves::get_pawn_attacks(e2, WHITE));
-
-  std::cout << "Black Pawn Attacks on e7:";
-  print_Board(Pawn_Moves::get_pawn_attacks(e7, BLACK));
-
-  std::cout << "========================================================\n";
-  std::cout << "  2. TESTING QUIET PUSHES (SINGLE & DOUBLE PUSH)\n";
-  std::cout << "========================================================\n";
-
-  U64 empty_board = 0ULL;
-  std::cout << "White Pawn on e2 (Starting rank, empty board -> e3 & e4 expected):";
-  print_Board(Pawn_Moves::get_pawn_pushes(e2, WHITE, empty_board));
-
-  // Test double push blocking: place a piece on e4
-  U64 occupied_e4 = (1ULL << e4);
-  std::cout << "White Pawn on e2 with obstacle on e4 -> (e3 only expected):";
-  print_Board(Pawn_Moves::get_pawn_pushes(e2, WHITE, occupied_e4));
-
-  // Test total blocking: place a piece on e3
-  U64 occupied_e3 = (1ULL << e3);
-  std::cout << "White Pawn on e2 with obstacle on e3 -> (No moves expected):";
-  print_Board(Pawn_Moves::get_pawn_pushes(e2, WHITE, occupied_e3));
-
-  std::cout << "========================================================\n";
-  std::cout << "  3. TESTING CAPTURES & EN PASSANT\n";
-  std::cout << "========================================================\n";
-
-  // Place enemy pieces on d5 and f5 for a White Pawn on e4
-  U64 enemies = (1ULL << d5) | (1ULL << f5);
-  int no_ep = 64;
-
-  std::cout << "White Pawn on e4 with Black pieces on d5 & f5:";
-  print_Board(Pawn_Moves::get_pawn_captures(e4, WHITE, enemies, no_ep));
-
-  // Test En Passant Capture
-  // White pawn on e5 (sq 28), Black double-pushed to d5 (sq 27), setting EP target square to d6 (sq 19)
-  int ep_square_d6 = d6;
-  std::cout << "White Pawn on e5 with En Passant target on d6:";
-  print_Board(Pawn_Moves::get_pawn_captures(e5, WHITE, 0ULL, ep_square_d6));
-
-  std::cout << "========================================================\n";
-  std::cout << "  4. TESTING COMBINED MOVESET (PUSHES + CAPTURES)\n";
-  std::cout << "========================================================\n";
-
-  // White Pawn on e2, enemy on d3, block on e4 (so push to e3 only + capture on d3)
-  U64 test_both_occupancy = (1ULL << e4) | (1ULL << d3);
-  U64 test_enemy_occupancy = (1ULL << d3);
-
-  std::cout << "Combined moves for White Pawn on e2 (Enemy d3, Blocked e4):";
-  print_Board(Pawn_Moves::get_pawn_moves(e2, WHITE, test_both_occupancy, test_enemy_occupancy, no_ep));
-
+  Bishop_Moves::init_magic_attack_table();
+  Rook_Moves::init_magic_attack_table();
+  UCI::loop();
   return 0;
 }

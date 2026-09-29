@@ -10,7 +10,7 @@ namespace Magic_Numbers
 {
   namespace
   {
-    unsigned int state = 1806358902;
+    unsigned int state = 1906358902;
 
     unsigned int get_random_num()
     {
