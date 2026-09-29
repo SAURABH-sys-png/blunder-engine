@@ -7,7 +7,7 @@ U64 Pawn_Moves::pawn_attacks[2][64];
 const U64 not_A_file = 18374403900871474942ULL;
 const U64 not_H_file = 9187201950435737471ULL;
 
-#define set_Bit(BitBoard, sq) (BitBoard |= (1ULL << sq))
+#define set_Bit(BitBoard, sq) (BitBoard |= (1ULL << sq)) // already declared in the main.cpp make it use that directly 
 
 U64 Pawn_Moves::mask_pawn_attacks(int sq, int side)
 {
@@ -17,15 +17,15 @@ U64 Pawn_Moves::mask_pawn_attacks(int sq, int side)
 
     if (side == WHITE)
     {
-        // Up-Right (>> 7) and Up-Left (>> 9)
-        attacks = (bitboard & not_H_file) >> 7;
-        attacks |= (bitboard & not_A_file) >> 9;
+        // Up-right and up-left (rank + 1)
+        attacks = (bitboard & not_H_file) << 9;
+        attacks |= (bitboard & not_A_file) << 7;
     }
     else
     {
-        // Down-Left (<< 7) and Down-Right (<< 9)
-        attacks = (bitboard & not_A_file) << 7;
-        attacks |= (bitboard & not_H_file) << 9;
+        // Down-left and down-right (rank - 1)
+        attacks = (bitboard & not_H_file) >> 7;
+        attacks |= (bitboard & not_A_file) >> 9;
     }
     return attacks;
 }
@@ -57,7 +57,7 @@ U64 Pawn_Moves::get_pawn_captures(int sq, int side, U64 enemy_occupancy, int enP
     valid_captures |= (raw_attacks & enemy_occupancy);
 
     // En Passant capture (if EP target square is active and under attack by this pawn)
-    if (enPassantSquare < 64)
+    if (enPassantSquare >= 0 && enPassantSquare < 64)
     {
         U64 ep_bitboard = (1ULL << enPassantSquare);
         valid_captures |= (raw_attacks & ep_bitboard);
@@ -76,14 +76,14 @@ U64 Pawn_Moves::get_pawn_pushes(int sq, int side, U64 both_occupancy)
 
     if (side == WHITE)
     {
-        int single_sq = sq - 8;
+        int single_sq = sq + 8;
         // Check single push (target square must be completely empty)
-        if (single_sq >= 0 && !(both_occupancy & (1ULL << single_sq)))
+        if (single_sq < 64 && !(both_occupancy & (1ULL << single_sq)))
         {
             pushes |= (1ULL << single_sq);
 
             // Check double push (must start on Rank 2 and intermediate + target squares empty)
-            int double_sq = sq - 16;
+            int double_sq = sq + 16;
             if ((1ULL << sq) & RANK_2)
             {
                 if (!(both_occupancy & (1ULL << double_sq)))
@@ -95,14 +95,14 @@ U64 Pawn_Moves::get_pawn_pushes(int sq, int side, U64 both_occupancy)
     }
     else // BLACK
     {
-        int single_sq = sq + 8;
+        int single_sq = sq - 8;
         // Check single push
-        if (single_sq < 64 && !(both_occupancy & (1ULL << single_sq)))
+        if (single_sq >= 0 && !(both_occupancy & (1ULL << single_sq)))
         {
             pushes |= (1ULL << single_sq);
 
             // Check double push (must start on Rank 7)
-            int double_sq = sq + 16;
+            int double_sq = sq - 16;
             if ((1ULL << sq) & RANK_7)
             {
                 if (!(both_occupancy & (1ULL << double_sq)))

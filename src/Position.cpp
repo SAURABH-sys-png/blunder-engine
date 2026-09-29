@@ -238,29 +238,34 @@ bool Position::make_move(const Move& m) {
     int us = sideToMove;
     int them = us ^ 1;
 
+    if (!m.is_valid() || from == to) return false;
+    U64 from_mask = 1ULL << from;
+    U64 to_mask = 1ULL << to;
+    if ((occupancies[us] & to_mask) || (state[them][KING] & to_mask)) return false;
+
     // Identify moving piece
     int moved_piece = -1;
     for (int p = 0; p < 6; ++p) {
-        if (state[us][p] & (1ULL << from)) {
+        if (state[us][p] & from_mask) {
             moved_piece = p;
             break;
         }
     }
     if (moved_piece == -1) return false;
 
+    Position previous = *this;
+
     // Handle captures
-    int captured_piece = -1;
     for (int p = 0; p < 6; ++p) {
-        if (state[them][p] & (1ULL << to)) {
-            captured_piece = p;
-            state[them][p] &= ~(1ULL << to);
+        if (state[them][p] & to_mask) {
+            state[them][p] &= ~to_mask;
             break;
         }
     }
 
     // Move piece from -> to
-    state[us][moved_piece] &= ~(1ULL << from);
-    state[us][moved_piece] |= (1ULL << to);
+    state[us][moved_piece] &= ~from_mask;
+    state[us][moved_piece] |= to_mask;
 
     // En-passant capture
     if (moved_piece == PAWN && to == enPassantSquare) {
@@ -308,6 +313,7 @@ bool Position::make_move(const Move& m) {
 
     // Verify move legality (cannot leave king in check)
     if (is_in_check(us)) {
+        *this = previous;
         return false;
     }
 
@@ -323,7 +329,7 @@ void Position::generate_pseudo_legal_moves(std::vector<Move>& move_list) {
     int them = us ^ 1;
     U64 occ_all = occupancies[BOTH_OC];
     U64 empty = ~occ_all;
-    U64 enemy_or_empty = ~occupancies[us];
+    U64 enemy_or_empty = ~(occupancies[us] | state[them][KING]);
 
     // 1. Pawn moves
     U64 pawns = state[us][PAWN];
@@ -348,7 +354,7 @@ void Position::generate_pseudo_legal_moves(std::vector<Move>& move_list) {
         }
 
         // Pawn attacks
-        U64 attacks = pawn_attacks[us][sq] & (occupancies[them] | (enPassantSquare != NO_SQ ? (1ULL << enPassantSquare) : 0ULL));
+        U64 attacks = pawn_attacks[us][sq] & ((occupancies[them] & ~state[them][KING]) | (enPassantSquare != NO_SQ ? (1ULL << enPassantSquare) : 0ULL));
         while (attacks) {
             int to = pop_lsb(attacks);
             bool is_promo = (us == WHITE && rank == 6) || (us == BLACK && rank == 1);
@@ -405,23 +411,23 @@ void Position::generate_pseudo_legal_moves(std::vector<Move>& move_list) {
 
         // Castling checks (squares must be empty and unattacked)
         if (us == WHITE && sq == 4 && !is_in_check(WHITE)) {
-            if ((castlingRights & WK) && !(occ_all & ((1ULL << 5) | (1ULL << 6)))) {
+            if ((castlingRights & WK) && (state[WHITE][ROOK] & (1ULL << 7)) && !(occ_all & ((1ULL << 5) | (1ULL << 6)))) {
                 if (!is_square_attacked(5, BLACK) && !is_square_attacked(6, BLACK)) {
                     move_list.emplace_back(4, 6);
                 }
             }
-            if ((castlingRights & WQ) && !(occ_all & ((1ULL << 1) | (1ULL << 2) | (1ULL << 3)))) {
+            if ((castlingRights & WQ) && (state[WHITE][ROOK] & (1ULL << 0)) && !(occ_all & ((1ULL << 1) | (1ULL << 2) | (1ULL << 3)))) {
                 if (!is_square_attacked(3, BLACK) && !is_square_attacked(2, BLACK)) {
                     move_list.emplace_back(4, 2);
                 }
             }
         } else if (us == BLACK && sq == 60 && !is_in_check(BLACK)) {
-            if ((castlingRights & BK) && !(occ_all & ((1ULL << 61) | (1ULL << 62)))) {
+            if ((castlingRights & BK) && (state[BLACK][ROOK] & (1ULL << 63)) && !(occ_all & ((1ULL << 61) | (1ULL << 62)))) {
                 if (!is_square_attacked(61, WHITE) && !is_square_attacked(62, WHITE)) {
                     move_list.emplace_back(60, 62);
                 }
             }
-            if ((castlingRights & BQ) && !(occ_all & ((1ULL << 57) | (1ULL << 58) | (1ULL << 59)))) {
+            if ((castlingRights & BQ) && (state[BLACK][ROOK] & (1ULL << 56)) && !(occ_all & ((1ULL << 57) | (1ULL << 58) | (1ULL << 59)))) {
                 if (!is_square_attacked(59, WHITE) && !is_square_attacked(58, WHITE)) {
                     move_list.emplace_back(60, 58);
                 }

@@ -38,7 +38,7 @@ Move parse_move(Position& pos, const std::string& move_str) {
 void loop() {
     Position pos;
     std::string line;
-    std::mt19937 rng(42); // PRNG for testing move simulation
+    std::mt19937 rng(std::random_device{}());
 
     // Disable C++ I/O synchronization with C stdio for faster, predictable flushing
     std::cin.tie(nullptr);
