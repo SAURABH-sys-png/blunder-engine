@@ -10,6 +10,7 @@ blunder-engine: \
   CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o \
   CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o \
   CMakeFiles/blunder-engine.dir/src/Position.cpp.o \
+  CMakeFiles/blunder-engine.dir/src/Search.cpp.o \
   CMakeFiles/blunder-engine.dir/src/UCI.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -61,6 +62,8 @@ CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o:
 CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o:
 
 CMakeFiles/blunder-engine.dir/src/Position.cpp.o:
+
+CMakeFiles/blunder-engine.dir/src/Search.cpp.o:
 
 CMakeFiles/blunder-engine.dir/src/UCI.cpp.o:
 

@@ -63,10 +63,7 @@ void Bishop_Moves::init_magic_attack_table()
 
 U64 Bishop_Moves::get_bishop_attacks(int sq, U64 occupancy)
 {
-    occupancy &= bishop_masks[sq];
-    occupancy *= magic_number[sq];
-    occupancy >>=64-relevant_bits[sq];
-    return bishop_actual_attacks[sq][occupancy];
+    return bishop_attacks_on_the_fly(sq, occupancy);
 }
 
 U64 Bishop_Moves::mask_bishop_moves(int sq)

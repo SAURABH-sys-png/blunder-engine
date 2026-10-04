@@ -63,10 +63,7 @@ void Rook_Moves::init_magic_attack_table()
 
 U64 Rook_Moves::get_rook_attacks(int sq, U64 occupancy)
 {
-    occupancy &= rook_masks[sq];
-    occupancy *= magic_number[sq];
-    occupancy >>=64-relevant_bits[sq];
-    return rook_actual_attacks[sq][occupancy];
+    return rook_attacks_on_the_fly(sq, occupancy);
 }
 
 U64 Rook_Moves::mask_rook_attacks(int sq)

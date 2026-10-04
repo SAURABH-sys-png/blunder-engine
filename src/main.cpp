@@ -202,10 +202,6 @@ void print_position(const Position &pos)
 
 int main()
 {
-  // Initialize move-generation tables before accepting UCI commands.
-  Pawn_Moves::init_pawn_attacks();
-  Bishop_Moves::init_magic_attack_table();
-  Rook_Moves::init_magic_attack_table();
   UCI::loop();
   return 0;
 }
