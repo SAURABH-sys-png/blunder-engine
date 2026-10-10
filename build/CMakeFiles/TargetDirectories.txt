@@ -1,3 +1,0 @@
-/home/saurabh/gitrepos/blunder-engine/build/CMakeFiles/blunder-engine.dir
-/home/saurabh/gitrepos/blunder-engine/build/CMakeFiles/edit_cache.dir
-/home/saurabh/gitrepos/blunder-engine/build/CMakeFiles/rebuild_cache.dir
