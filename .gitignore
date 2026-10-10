@@ -1,2 +1,11 @@
-./build
+# Ignore build directories
+/build/
+/dist/
+/out/
+
+# Ignore specific compiled extensions
+*.exe
+*.dll
+*.so
+
 Deepov
