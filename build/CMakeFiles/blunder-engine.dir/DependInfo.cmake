@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/realincor/gitrepos/blunder-engine/src/Bishop_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/King_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/Knight_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/Magic_Numbers.cpp" "CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/Pawn_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/Position.cpp" "CMakeFiles/blunder-engine.dir/src/Position.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Position.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/Rook_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/Search.cpp" "CMakeFiles/blunder-engine.dir/src/Search.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Search.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/UCI.cpp" "CMakeFiles/blunder-engine.dir/src/UCI.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/UCI.cpp.o.d"
-  "/home/realincor/gitrepos/blunder-engine/src/main.cpp" "CMakeFiles/blunder-engine.dir/src/main.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/main.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/Bishop_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Bishop_Moves.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/King_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/King_Moves.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/Knight_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Knight_Moves.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/Magic_Numbers.cpp" "CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Magic_Numbers.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/Pawn_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Pawn_Moves.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/Position.cpp" "CMakeFiles/blunder-engine.dir/src/Position.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Position.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/Rook_Moves.cpp" "CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Rook_Moves.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/Search.cpp" "CMakeFiles/blunder-engine.dir/src/Search.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/Search.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/UCI.cpp" "CMakeFiles/blunder-engine.dir/src/UCI.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/UCI.cpp.o.d"
+  "/home/saurabh/gitrepos/blunder-engine/src/main.cpp" "CMakeFiles/blunder-engine.dir/src/main.cpp.o" "gcc" "CMakeFiles/blunder-engine.dir/src/main.cpp.o.d"
   "" "blunder-engine" "gcc" "CMakeFiles/blunder-engine.dir/link.d"
   )
 

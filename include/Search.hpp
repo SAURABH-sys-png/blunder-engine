@@ -8,7 +8,7 @@
 
 namespace Search {
 
-inline constexpr int MAX_DEPTH = 8;
+inline constexpr int MAX_DEPTH = 4;
 
 struct Limits {
 	int depth = MAX_DEPTH;

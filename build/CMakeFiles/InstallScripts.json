@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/realincor/gitrepos/blunder-engine/build/cmake_install.cmake"
+		"/home/saurabh/gitrepos/blunder-engine/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

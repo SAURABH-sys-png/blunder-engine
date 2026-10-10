@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/realincor/gitrepos/blunder-engine/include
+CXX_INCLUDES = -I/home/saurabh/gitrepos/blunder-engine/include
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
+CXX_FLAGS = -std=gnu++17
 
