@@ -72,3 +72,17 @@ go depth 5
 
 For interactive play, add `build/blunder-engine` as a UCI engine in a chess
 GUI. The engine is functional, but its playing strength has not been measured.
+
+## Authorship and Resources
+
+The following files were made using AI and are marked `Audited with AI` at the
+top:
+
+- `include/UCI.hpp`, `src/UCI.cpp` (UCI protocol)
+- `include/Search.hpp`, `src/Search.cpp` (search)
+- `CMakeLists.txt`
+
+All other files were written by me.
+
+> "I used resources from the Chess Programming Wiki and the Chess Programming
+> YouTube channel."

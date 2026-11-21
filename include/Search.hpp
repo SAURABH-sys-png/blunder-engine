@@ -1,3 +1,4 @@
+// Audited with AI
 #pragma once
 
 #include "Position.hpp"
